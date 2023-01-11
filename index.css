@@ -1,0 +1,93 @@
+#container{
+  flex-wrap: wrap;
+}
+
+#left-info{
+  width:150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #935f82;
+}
+
+#right-info p{
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  padding: 0 10px;
+}
+#right-info .linkedin-link{
+  position:absolute;
+  bottom: 12px;
+  right:12px;
+}
+#right-info .linkedin-link a{
+  text-decoration: none;
+  color: darkblue;
+}
+#right-info .linkedin-link a:hover{
+  text-decoration: underline;
+  color: blue;
+} 
+
+  /* Style the form container */
+#signup-form {
+  max-width: 500px;
+  margin: auto;
+  color: #0d0d0d;
+}
+
+/* Style the form inputs */
+#signup-form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+#signup-form button {
+  width: 100%;
+  background-color: #63055d;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#signup-form button:hover {
+  background-color: #fc3ae9;
+  color:black;
+}
+
+#days{
+  color: aqua;
+}
+#btnLI button{
+  width: 100%;
+  background-color: #63055d;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btnLI button:hover {
+  background-color: #fc3ae9;
+  color:black;
+}
+
+#bdy{
+  color: #140113;
+  background-color: #935f82;
+  max-width: 500px;
+  margin: auto;
+  padding: 12px;
+  border: 1px solid rgb(50, 1, 45);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
